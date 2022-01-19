@@ -1,0 +1,1039 @@
+{
+    "MATH1101": {
+        "name": "Applied Mathematics I",
+        "code": "Math1101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "University Mathematics",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Maths for Dummies",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Calculus 1",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Think Maths",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "More book",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ],
+        "material": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PHYS1101": {
+        "name": "General Physics-I",
+        "code": "Phys1101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CHEM1101": {
+        "name": "General Chemistry",
+        "code": "Chem1101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "University Mathematics",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Maths for Dummies",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Calculus 1",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Think Maths",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "More book",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE1101": {
+        "name": "Introduction to Computing",
+        "code": "CSE1101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "University Mathematics",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Maths for Dummies",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Calculus 1",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Think Maths",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "More book",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ENG1011": {
+        "name": "Communicative English Skills",
+        "code": "ENG1011",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "University Mathematics",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Maths for Dummies",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Calculus 1",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "Think Maths",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ],
+            [
+                "More book",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "LAR1011": {
+        "name": "Civic and Ethical Education",
+        "code": "LAR1011",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "HPED1011": {
+        "name": "Health &Physical Education I",
+        "code": "HPEd1011",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "LAR1012": {
+        "name": "Logic and Critical Thinking",
+        "code": "LAR1012",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "MATH1102": {
+        "name": "Applied Mathematics II",
+        "code": "Math1102",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PHYS1102": {
+        "name": "Emerging Technologies",
+        "code": "Phys1102",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE1102": {
+        "name": "Fundamentals of Programming",
+        "code": "CSE1102",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "DME1102": {
+        "name": "Engineering Drawing",
+        "code": "DME1102",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ENG1102": {
+        "name": "Basic Writing Skills",
+        "code": "ENG1102",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE2101": {
+        "name": "Data Structure and Algorithm",
+        "code": "CSE2101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE2101": {
+        "name": "Electronic Circuit",
+        "code": "ECE2101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "MATH2051": {
+        "name": "Applied Mathematics III",
+        "code": "MATH2051",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PCE2101": {
+        "name": "Fundamental of Electrical Engineering",
+        "code": "PCE2101",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "SOS311": {
+        "name": "Principle of Economics",
+        "code": "SOS311",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE2202": {
+        "name": "Object Oriented Programming",
+        "code": "CSE2202",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE2206": {
+        "name": "Discrete Mathematics for CSE",
+        "code": "CSE2206",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE3204": {
+        "name": "Digital Logic Design",
+        "code": "ECE3204",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3207": {
+        "name": "Database Systems",
+        "code": "CSE3207",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE2202": {
+        "name": "Electronic circuit II",
+        "code": "ECE2202",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE2320": {
+        "name": "System Programming",
+        "code": "CSE2320",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3310": {
+        "name": "Computer Graphics",
+        "code": "CSE3310",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3211": {
+        "name": "Algorithms",
+        "code": "CSE3211",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE3103": {
+        "name": "Probability and Random Process",
+        "code": "ECE3103",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3205": {
+        "name": "Fund. of software Engineering",
+        "code": "CSE3205",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3203": {
+        "name": "Computer Architecture & Organization",
+        "code": "CSE3203",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3204": {
+        "name": "Operating System",
+        "code": "CSE3204",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3221": {
+        "name": "Data Communication & Computer Networks",
+        "code": "CSE3221",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3206": {
+        "name": "Introduction to Artificial",
+        "code": "CSE3206",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3308": {
+        "name": "SOftware Requirement Engineering",
+        "code": "CSE3308",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3306": {
+        "name": "Web Programming",
+        "code": "CSE3306",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE3312": {
+        "name": "Advanced Programming",
+        "code": "CSE3312",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "UNKNOWN": {
+        "name": "Introduction to Law",
+        "code": "Unknown",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4221": {
+        "name": "Engineering Research and Development Methodology",
+        "code": "CSE4221",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4303": {
+        "name": "Multimedia Tech.",
+        "code": "CSE4303",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4309": {
+        "name": "Software Design and Architecture",
+        "code": "CSE4309",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4311": {
+        "name": "Mobile Computing and Applications",
+        "code": "CSE4311",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE2204": {
+        "name": "Signals and Systems",
+        "code": "ECE2204",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5317": {
+        "name": "Introduction to Data mining",
+        "code": "CSE5317",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5321": {
+        "name": "Introduction to NLP",
+        "code": "CSE5321",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "UNKOWN": {
+        "name": "Computer System and security",
+        "code": "Unkown",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4202": {
+        "name": "Programming languages",
+        "code": "CSE4202",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4302": {
+        "name": "Project Management",
+        "code": "CSE4302",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4310": {
+        "name": "Compiler Design",
+        "code": "CSE4310",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE3205": {
+        "name": "Digital Signal Processing",
+        "code": "ECE3205",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "ECE5307": {
+        "name": "VLSI Design",
+        "code": "ECE5307",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PCE3201": {
+        "name": "Electrical Network Analysis and synthesis",
+        "code": "PCE3201",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE4312": {
+        "name": "Introduction to Computer Vision",
+        "code": "CSE4312",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5201": {
+        "name": "Semester Project",
+        "code": "CSE5201",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5205": {
+        "name": "Seminar",
+        "code": "CSE5205",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5307": {
+        "name": "Distributed Systems",
+        "code": "CSE5307",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5309": {
+        "name": "Wireless mobile Networks",
+        "code": "CSE5309",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5311": {
+        "name": "Image Processing",
+        "code": "CSE5311",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5313": {
+        "name": "Human Computer Interaction",
+        "code": "CSE5313",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5315": {
+        "name": "Introduction to Audio & Video Production",
+        "code": "CSE5315",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5319": {
+        "name": "Advanced Network",
+        "code": "CSE5319",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PCE3204": {
+        "name": "Introduction to Control Systems",
+        "code": "PCE3204",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5202": {
+        "name": "B.Sc. Project",
+        "code": "CSE5202",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "SOSC412": {
+        "name": "Entrepreneurship for Engineers",
+        "code": "SOSC412",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5304": {
+        "name": "Computer Games & Animation",
+        "code": "CSE5304",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5306": {
+        "name": "Special Topics in Computer Science & Engineering",
+        "code": "CSE5306",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5308": {
+        "name": "Real time and Embedded Systems",
+        "code": "CSE5308",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5310": {
+        "name": "Software Quality & Testing",
+        "code": "CSE5310",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "CSE5312": {
+        "name": "Computer Ethics and Social Issues",
+        "code": "CSE5312",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    },
+    "PCE5308": {
+        "name": "Introduction to Robotics and Industrial Automation",
+        "code": "PCE5308",
+        "file_id": "BQACAgQAAxkBAAENfdhh4rifuD5G4PvblNqo-JpkBrj2ZAACJwkAAncsEFN81CMwt3afZyME",
+        "crh": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ",
+        
+        "materials": [
+            [
+                "Applied Begashaw",
+                "BQACAgQAAxkBAAENf4Fh4xoe5J0Qq2pEC6odSg-gap8O4AACpAsAAiNKSFB0m7hNLKOQvSME"
+            ]
+        ]
+    }
+}
