@@ -20,4 +20,4 @@ async def log(event):
 🌀 @{event.from_user.username}
 
    <b>{event.text}</b>"""
-    # await bot.send_message(-619480714, TEXT, parse_mode="HTML")
+    await bot.send_message(-619480714, TEXT, parse_mode="HTML")

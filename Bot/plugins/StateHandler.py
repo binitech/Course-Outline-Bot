@@ -108,7 +108,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
 async def removeMaterial(message: types.Message, state: FSMContext):
     async with state.proxy() as data:
         data['name'] = message.text
-    await message.answer("Send File string for the material")
+    await message.answer("Please send material\'s Document/File")
     await AddMaterialForm.next()
 
 
@@ -122,4 +122,4 @@ async def AddMatCFile(message: types.Message, state: FSMContext):
         await message.answer("Material Added Successfully!")
         await state.finish()
     else:
-        await message.answer("Please send material\'s Document/File")
+        await message.answer("🙂Incorrect Document\nPlease send material\'s Document/File")
