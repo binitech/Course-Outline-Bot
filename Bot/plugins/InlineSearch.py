@@ -149,14 +149,14 @@ async def inline_starter(inline_handler: InlineQuery):
             i += 1
             for val in range(2):
                 if re.search(txt.lower(), x[val].lower()):
-                    txt = f'➖➖ <b>Course Outline</b> ➖➖\n\n<b>Name:</b> {x[0]}' \
+                    Doc_text = f'➖➖ <b>Course Outline</b> ➖➖\n\n<b>Name:</b> {x[0]}' \
                        f'\n<b>Code:</b> {x[1]}\n\n📚Find More from : @ASTU_COBOT'
                     item.append(
                         InlineQueryResultCachedDocument(
                             id=str(uuid.uuid4()),
                             title=x[0],
                             document_file_id=cs[x[1].upper()]['file_id'],
-                            caption=txt,
+                            caption=Doc_text,
                             description=x[1],
                             parse_mode="HTML"
                         )
