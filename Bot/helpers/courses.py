@@ -1,15 +1,13 @@
 from config import db
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import json
 from Bot.helpers import strings
+from Bot.helpers.Database import DptFile
 
 courses = db.get().val()['courses']
 
-with open("Bot/helpers/courses.json", "r") as filedata:
-    data = json.load(filedata)
-
 
 def collage(lang=0):
+    data = DptFile().get()
     div = "\n   ".join(["➖ " + x for x in list(data)])
     TEXT = strings.collageString[lang].format(div)
     btn = InlineKeyboardMarkup()
@@ -19,6 +17,7 @@ def collage(lang=0):
 
 
 def schools(par, lang=0):
+    data = DptFile().get()
     NewData = data[par]
     if isinstance(NewData, dict):
         div = "\n   ".join(["▪️ " + x for x in list(NewData)])
@@ -34,6 +33,7 @@ def schools(par, lang=0):
 
 
 def division(par, lang=0):
+    data = DptFile().get()
     NewData = data[par[0]][par[1]]
     if isinstance(NewData, dict):
         div = "\n   ".join(["▪️ " + x for x in list(NewData)])
@@ -49,6 +49,7 @@ def division(par, lang=0):
 
 
 def department(par, lang=0):
+    data = DptFile().get()
     NewData = data[par[0]][par[1]][par[2]]
     if isinstance(NewData, dict):
         div = "\n   ".join(["▪️ " + x for x in list(NewData)])
@@ -64,6 +65,7 @@ def department(par, lang=0):
 
 
 def year(par, lang=0):
+    data = DptFile().get()
     NewData = data[par[0]][par[1]][par[2]][par[3]]
     if isinstance(NewData, dict):
         div = "\n   ".join([x for x in list(NewData)])
@@ -80,6 +82,7 @@ def year(par, lang=0):
 
 
 def semester(par, inside=False, lang=0):
+    data = DptFile().get()
     if inside:
         NewData = par
     else:

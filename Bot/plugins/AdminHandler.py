@@ -5,7 +5,7 @@ from aiogram import types
 from aiogram.dispatcher.filters import Text
 from Bot.helpers import BotStatus, buttons
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, FileIdEditForm, CrhEditForm, DescEditForm, \
-    CourseManager
+    CourseManager, AddNewCourseForm
 from config import admins, db
 
 
@@ -50,6 +50,10 @@ async def admin_panel_callbacks(query: types.InlineQuery):
 
     if query.data == "admin_manage_courses":
         await query.message.answer("Select next move:", reply_markup=buttons.admin_Manage_menu())
+
+    if query.data == "admin_addNewCourse":
+        await query.message.answer("Please send course code for the new course")
+        await AddNewCourseForm.code.set()
 
     if query.data == "admin_editCourseDesc":
         await DescEditForm.code.set()

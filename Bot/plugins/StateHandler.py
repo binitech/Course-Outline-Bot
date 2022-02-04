@@ -7,7 +7,7 @@ from Bot.helpers.Database import CsFile
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, DescEditForm, CourseManager, CrhEditForm, \
-    FileIdEditForm
+    FileIdEditForm, AddNewCourseForm
 
 
 @dp.message_handler(state=DescEditForm.code)
@@ -123,3 +123,24 @@ async def AddMatCFile(message: types.Message, state: FSMContext):
         await state.finish()
     else:
         await message.answer("🙂Incorrect Document\nPlease send material\'s Document/File")
+
+
+@dp.message_handler(state=AddNewCourseForm.code)
+async def removeMaterial(message: types.Message, state: FSMContext):
+    if message.text not in list(CsFile().get()):
+        async with state.proxy() as data:
+            data['code'] = message.text
+        await message.answer("Send me Material Title/Name")
+        await AddNewCourseForm.next()
+    else:
+        await message.answer("The course code you entered is available in the courses list")
+
+
+@dp.message_handler(state=AddNewCourseForm.name)
+async def removeMaterial(message: types.Message, state: FSMContext):
+    async with state.proxy() as data:
+        data['name'] = message.text
+        cs = CourseManager()
+        cs.add_course(code=data['code'].upper(), name=message.text)
+    await message.answer("Course added successfully go and edit details about it.")
+    await state.finish()

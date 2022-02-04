@@ -107,107 +107,726 @@
             },
             "ECE": {
                 "2nd Year": {
-                    "1st Semester": [
-
-                    ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "3rd Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "4th Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "5th Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 }
 
             },
             "EPCE": {
                 "2nd Year": {
-                    "1st Semester": [
-
-                    ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "3rd Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "4th Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 },
                 "5th Year": {
                     "1st Semester": [
-
+                        ["None Available", "None"]
                     ],
                     "2nd Semester": [
-
+                        ["None Available", "None"]
                     ]
                 }
 
             }
         },
-        "SoMCE": {
+        "SoMCME": {
             "2nd Year 1st Semester": [
-                ["Machine Drawing", "MENG2105"],
-                ["Basic Workshop Practice", "MENG2101"],
-                ["Applied Mathematics III", "MATH2051"],
-                ["Introduction to Engineering Materials", "MSCE2101"],
-                ["Engineering Mechanics I (Statics)", "CENG2201"],
-                ["Introduction to School Programs", "MCME2101"]
-            ]
+                [
+                    "Machine Drawing",
+                    "MENG2105"
+                ],
+                [
+                    "Basic Workshop Practice",
+                    "MENG2101"
+                ],
+                [
+                    "Applied Mathematics III",
+                    "MATH2051"
+                ],
+                [
+                    "Introduction to Engineering Materials",
+                    "MSCE2101"
+                ],
+                [
+                    "Engineering Mechanics I (Statics)",
+                    "CENG2201"
+                ],
+                [
+                    "General Psychology and Life skill",
+                    "LART2002"
+                ]
+            ],
+            "Mechanical": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            },
+            "Chemical": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            },
+            "Material": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            }
         },
-        "SoCAE": {
-
+        "SoCEA": {
+            "2nd Year 1st Semester": [
+                ["General Psychology and Life skill", "LART2002"],
+                ["Architectural Working Drawing", "ARCH2201"],
+                ["Construction Materials", "CENG2205"],
+                ["Engineering Mechanics", "CENG2201"],
+                ["Fundamental of surveying", "CENG2203"],
+                ["Probability and Statics for Engineers", "MATH2105"]
+            ],
+            "Architecture": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            },
+            "Civil": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            },
+            "Water": {
+                "2nd Year": {
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "3rd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "4th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+                "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
+            }
         }
     },
     "Applied": {
         "Freshman Division": {
-
-        },
+            "1st Semester": [
+                ["Applied Mathematics I", "Math1101"],
+                ["General Physics-I", "Phys1101"],
+                ["General Chemistry", "Chem1101"],
+                ["Introduction to Computing", "CSE1101"],
+                ["Communicative English Skills", "ENG1011"],
+                ["Civic and Ethical Education", "LAR1011"],
+                ["Health &Physical Education I", "HPEd1011"],
+                ["Logic and Critical Thinking", "LAR1012"]
+            ],
+            "2nd Semester": [
+                ["Applied Mathematics II", "Math1102"],
+                ["Emerging Technologies", "Phys1102"],
+                ["Fundamentals of Programming", "CSE1102"],
+                ["Engineering Drawing", "DME1102"],
+                ["Basic Writing Skills", "ENG1102"],
+                ["Health &Physical Education I", "HPEd1012"],
+                ["Logic and Critical Thinking", "LAR1012"],
+                ["Civic and Ethical Education", "LAR1011"]
+            ]
+    },
         "Applied Physics": {
-
+            "2nd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+            "3rd Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "4th Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
         },
         "Applied Biology": {
-
+            "2nd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+            "3rd Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "4th Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
         },
         "Applied Chemistry": {
-
+            "2nd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+            "3rd Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "4th Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
         },
         "Applied Geology": {
-
+            "2nd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+            "3rd Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "4th Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
         },
         "Applied Mathematics": {
-
+            "2nd Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                },
+            "3rd Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "4th Year": {
+                "1st Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ],
+                "2nd Semester": [
+                    [
+                        "None Available",
+                        "None"
+                    ]
+                ]
+            },
+            "5th Year": {
+                    "1st Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ],
+                    "2nd Semester": [
+                        [
+                            "None Available",
+                            "None"
+                        ]
+                    ]
+                }
         }
 
     }

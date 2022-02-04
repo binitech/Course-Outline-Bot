@@ -32,3 +32,11 @@ class CsFile:
 
     def get(self):
         return db.child(self.course).get().val()
+
+
+class DptFile:
+    def __init__(self):
+        self.dpt = "dpt"
+
+    def get(self):
+        return db.child(self.dpt).get().val()

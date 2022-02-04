@@ -4,6 +4,11 @@ from Bot.helpers.Database import CsFile
 from aiogram.dispatcher.filters.state import StatesGroup, State
 
 
+class AddNewCourseForm(StatesGroup):
+    code = State()
+    name = State()
+
+
 class DescEditForm(StatesGroup):
     code = State()
     desc = State()
@@ -54,6 +59,24 @@ class CourseManager:
         Obj = self.get_material(code)
         Obj.append(value)
         db.child(self.courses).child(code).update({"materials": Obj})
+
+    def add_course(self, code, name):
+        data = {
+            code: {
+                "name": name,
+                "code": code,
+                "file_id": "BQACAgQAAxkBAAEN4Q5h_Se8R-cPMRGuyubQ72-JiDOpjgACoAkAAld7KFPIdWJ0Hn4oNiME",
+                "crh": "3",
+                "description": "None available",
+                "materials": [
+                    [
+                        "Test",
+                        "BQACAgQAAxkBAAEN4Q5h_Se8R-cPMRGuyubQ72-JiDOpjgACoAkAAld7KFPIdWJ0Hn4oNiME"
+                    ]
+                ]
+            }
+        }
+        db.child(self.courses).update(data)
 
 
 def listMaterials(code):
