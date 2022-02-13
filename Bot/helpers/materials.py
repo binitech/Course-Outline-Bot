@@ -37,7 +37,7 @@ def listMaterials(code, start=0, end=10, i=1, lang=0):
         i += 1
     if start >= 10:
         btn.add(InlineKeyboardButton(strings.backBtnString[lang],
-                                     callback_data=f"listMaterial_back_{start - 10}_{end - 10}_{i - 10}_{code}"))
+                                     callback_data=f"listMaterial_back_{start - 10}_{end - 10}_{i - 10 - len(mat)}_{code}"))
     if end < len(mats):
         btn.insert(InlineKeyboardButton(strings.nextBtnString[lang]
                                         , callback_data=f"listMaterial_next_{start + 10}_{end + 10}_{i}_{code}"))
