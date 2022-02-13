@@ -25,15 +25,15 @@ def materials(lang=0, start=0, end=10, i=1):
 
 
 def listMaterials(code, start=0, end=10, i=1, lang=0):
-    mats = CsFile().get()[code]
-    mat = mats['materials'][start:end]
+    mats = CsFile().get()[code]['materials']
+    mat = mats[start:end]
     txt = []
-    btn = InlineKeyboardMarkup(row_width=3)
+    btn = InlineKeyboardMarkup(row_width=4)
     for x in mat:
         txt.append(
             f"*{str(i).zfill(2)}* 🔗 *{x[0]}*"
         )
-        btn.insert(InlineKeyboardButton(f"{i}", callback_data=f"displayMaterial_{code}_{i-1}"))
+        btn.insert(InlineKeyboardButton(f"{str(i).zfill(2)}", callback_data=f"displayMaterial_{code}_{i-1}"))
         i += 1
     if start >= 10:
         btn.add(InlineKeyboardButton(strings.backBtnString[lang],
