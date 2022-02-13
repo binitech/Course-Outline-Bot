@@ -17,10 +17,10 @@ def materials(lang=0, start=0, end=10, i=1):
     TEXT = f"📚Materials\n\n{TEXT}"
     if start >= 10:
         btn.add(InlineKeyboardButton(strings.backBtnString[lang],
-                                     callback_data=f"pageBar_back_{start-10}_{end-10}_{i-20}"))
+                                     callback_data=f"pageBar_back_{start - 10}_{end - 10}_{i - 20}"))
     if end < len(list(CsFile().get())):
         btn.insert(InlineKeyboardButton(strings.nextBtnString[lang],
-                                        callback_data=f"pageBar_next_{start+10}_{end+10}_{i}"))
+                                        callback_data=f"pageBar_next_{start + 10}_{end + 10}_{i}"))
     return TEXT, btn
 
 
@@ -33,15 +33,14 @@ def listMaterials(code, start=0, end=10, i=1, lang=0):
         txt.append(
             f"*{str(i).zfill(2)}* 🔗 *{x[0]}*"
         )
-        btn.insert(InlineKeyboardButton(f"{str(i).zfill(2)}", callback_data=f"displayMaterial_{code}_{i-1}"))
+        btn.insert(InlineKeyboardButton(f"{str(i).zfill(2)}", callback_data=f"displayMaterial_{code}_{i - 1}"))
         i += 1
     if start >= 10:
         btn.add(InlineKeyboardButton(strings.backBtnString[lang],
-                                     callback_data=f"listMaterial_back_{start-10}_{end-10}_{i-20}_{code}"))
+                                     callback_data=f"listMaterial_back_{start - 10}_{end - 10}_{i - 20}_{code}"))
     if end < len(mats):
-        btn.add(InlineKeyboardButton(strings.nextBtnString[lang]
-                                     , callback_data=f"listMaterial_next_{start+10}_{end+10}_{i}_{code}"))
+        btn.insert(InlineKeyboardButton(strings.nextBtnString[lang]
+                                        , callback_data=f"listMaterial_next_{start + 10}_{end + 10}_{i}_{code}"))
     TEXT = "\n".join(txt)
     TEXT = f"*📕{CsFile().get()[code]['name']}*\n\n{TEXT}"
     return TEXT, btn
-
