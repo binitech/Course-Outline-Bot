@@ -57,10 +57,10 @@ async def Pagination(query: types.InlineQuery):
     lang = dataBase.get_user_lang(userId)
     page = query.data.split("_")
     if query.data.startswith("listMaterial_back"):
-        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang)
+        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
         await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
     if query.data.startswith("listMaterial_next"):
-        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang)
+        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
         await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
 
 
