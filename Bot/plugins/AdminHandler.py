@@ -4,6 +4,7 @@ from Bot import bot, dp
 from aiogram import types
 from aiogram.dispatcher.filters import Text
 from Bot.helpers import BotStatus, buttons
+from Bot.helpers.BotStatus import adminLog
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, FileIdEditForm, CrhEditForm, DescEditForm, \
     CourseManager, AddNewCourseForm
 from config import admins, db
@@ -97,6 +98,11 @@ async def adminState(message: types.Message, state: FSMContext):
         await message.answer(f"added {message.text} to admins list")
         admins.append(int(message.text))
         db.update({"admins": admins})
+        stat = f'Added {message.text} as an admin'
+        await adminLog(message, stat)
+        await state.finish()
+    elif message.text == '/cancel':
+        await message.answer("Process cancelled")
         await state.finish()
     else:
         await message.answer("User id must be number please enter again")
@@ -108,6 +114,8 @@ async def removeAdmin(message: types.Message, state: FSMContext):
         await message.answer(f"removed {message.text} from admins list")
         admins.remove(int(message.text))
         db.update({"admins": admins})
+        stat = f'Removed {message.text} from admin list'
+        await adminLog(message, stat)
         await state.finish()
     else:
         await message.answer("Invalid admin id please enter again")

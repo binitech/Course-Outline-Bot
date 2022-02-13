@@ -3,6 +3,7 @@
 #####################################################################################
 from Bot import dp
 from Bot.helpers import ManageCourse
+from Bot.helpers.BotStatus import adminLog
 from Bot.helpers.Database import CsFile
 from aiogram import types
 from aiogram.dispatcher import FSMContext
@@ -26,6 +27,8 @@ async def editDesc(message: types.Message, state: FSMContext):
     async with state.proxy() as data:
         cs = CourseManager()
         cs.edit_desc(c_code=data['code'], value=message.text)
+    stat = f"Changed course description of {data['code']} to \n{message.text}"
+    await adminLog(message, stat)
     await message.answer("Description changed successfully")
     await state.finish()
 
@@ -50,6 +53,8 @@ async def editDesc(message: types.Message, state: FSMContext):
         cs = CourseManager()
         cs.edit_crh(c_code=data['code'], value=message.text)
     await message.answer("Credit hour changed successfully")
+    stat = f'Changed course chr for {data["code"]} to {message.text}'
+    await adminLog(message, stat)
     await state.finish()
 
 
@@ -73,7 +78,9 @@ async def editDesc(message: types.message.ContentType.ANY, state: FSMContext):
         async with state.proxy() as data:
             cs = CourseManager()
             cs.edit_fileId(c_code=data['code'], value=message.document.file_id)
-        await message.answer("File Id String changed successfully")
+        await message.answer("File changed successfully")
+        stat = f'Changed course File for {data["code"]} to {message.document.file_id}'
+        await adminLog(message, stat)
         await state.finish()
     else:
         await message.answer("Please send me document file.")
@@ -120,6 +127,8 @@ async def AddMatCFile(message: types.Message, state: FSMContext):
         NewMaterial = [data['name'], data['fileId']]
         CourseManager().add_material(data['code'], NewMaterial)
         await message.answer("Material Added Successfully!")
+        stat = f'Added material for {data["code"]} \nNamed: {data["name"]}'
+        await adminLog(message, stat)
         await state.finish()
     else:
         await message.answer("🙂Incorrect Document\nPlease send material\'s Document/File")
@@ -143,4 +152,6 @@ async def removeMaterial(message: types.Message, state: FSMContext):
         cs = CourseManager()
         cs.add_course(code=data['code'].upper(), name=message.text)
     await message.answer("Course added successfully go and edit details about it.")
+    stat = f'Added new course {data["code"]}'
+    await adminLog(message, stat)
     await state.finish()
