@@ -50,6 +50,20 @@ async def Pagination(query: types.InlineQuery):
         await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
 
 
+@dp.callback_query_handler(Text(startswith="listMaterial_"))
+async def Pagination(query: types.InlineQuery):
+    await query.message.delete()
+    userId = query.from_user.id
+    lang = dataBase.get_user_lang(userId)
+    page = query.data.split("_")
+    if query.data.startswith("listMaterial_back"):
+        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang)
+        await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+    if query.data.startswith("listMaterial_next"):
+        func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang)
+        await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+
+
 @dp.callback_query_handler(Text(startswith="lang_"))
 async def setLang(query: types.InlineQuery):
     """handling and updating the language by users selection"""
