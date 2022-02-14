@@ -64,4 +64,4 @@ def selectLanguage(lang=0):
     return TEXT[lang], mainBtn
 
 
-cancelBtn = ReplyKeyboardMarkup(one_time_keyboard=True).add(KeyboardButton("🚫Cancel"))
+cancelBtn = ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True).add(KeyboardButton("🚫Cancel"))

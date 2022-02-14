@@ -94,7 +94,7 @@ async def removeMaterialFinal(query: types.InlineQuery):
 
 @dp.message_handler(state=AdminForm.id)
 async def adminState(message: types.Message, state: FSMContext):
-    if message.text == '/cancel':
+    if message.text == '🚫Cancel':
         await message.answer("Process cancelled")
         await state.finish()
     elif message.text.isdigit():
@@ -110,7 +110,7 @@ async def adminState(message: types.Message, state: FSMContext):
 
 @dp.message_handler(state=RemoveAdmin.id)
 async def removeAdmin(message: types.Message, state: FSMContext):
-    if message.text == '/cancel':
+    if message.text == '🚫Cancel':
         await message.answer("Process cancelled")
         await state.finish()
     elif int(message.text) in admins:
