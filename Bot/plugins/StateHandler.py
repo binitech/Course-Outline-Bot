@@ -37,7 +37,7 @@ async def editDesc(message: types.Message, state: FSMContext):
             cs.edit_desc(c_code=data['code'], value=message.text)
         stat = f"Changed course description of {data['code']} to \n{message.text}"
         await adminLog(message, stat)
-        await message.answer("Description changed successfully")
+        await message.answer("Description changed successfully", reply_markup=menu(message.from_user.id))
         await state.finish()
 
 
@@ -67,7 +67,7 @@ async def editDesc(message: types.Message, state: FSMContext):
         async with state.proxy() as data:
             cs = CourseManager()
             cs.edit_crh(c_code=data['code'], value=message.text)
-        await message.answer("Credit hour changed successfully")
+        await message.answer("Credit hour changed successfully", reply_markup=menu(message.from_user.id))
         stat = f'Changed course chr for {data["code"]} to {message.text}'
         await adminLog(message, stat)
         await state.finish()
@@ -99,7 +99,7 @@ async def editDesc(message: types.message.ContentType.ANY, state: FSMContext):
         async with state.proxy() as data:
             cs = CourseManager()
             cs.edit_fileId(c_code=data['code'], value=message.document.file_id)
-        await message.answer("File changed successfully")
+        await message.answer("File changed successfully", reply_markup=menu(message.from_user.id))
         stat = f'Changed course File for {data["code"]} to {message.document.file_id}'
         await adminLog(message, stat)
         await state.finish()
@@ -132,7 +132,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
     elif message.text in list(CsFile().get()):
         async with state.proxy() as data:
             data['code'] = message.text
-        await message.answer("Send me Material Title/Name", reply_markup=cancelBtn)
+        await message.answer("Send me Course Title/Name", reply_markup=cancelBtn)
         await AddMaterialForm.next()
     else:
         await message.answer("The course code you entered is incorrect")
@@ -160,7 +160,7 @@ async def AddMatCFile(message: types.Message, state: FSMContext):
             data['fileId'] = message.document.file_id
         NewMaterial = [data['name'], data['fileId']]
         CourseManager().add_material(data['code'], NewMaterial)
-        await message.answer("Material Added Successfully!")
+        await message.answer("Material Added Successfully!", reply_markup=menu(message.from_user.id))
         stat = f'Added material for {data["code"]} \nNamed: {data["name"]}'
         await adminLog(message, stat)
         await state.finish()
@@ -192,7 +192,8 @@ async def removeMaterial(message: types.Message, state: FSMContext):
             data['name'] = message.text
             cs = CourseManager()
             cs.add_course(code=data['code'].upper(), name=message.text)
-        await message.answer("Course added successfully go and edit details about it.")
+        await message.answer("Course added successfully go and edit details about it.",
+                             reply_markup=menu(message.from_user.id))
         stat = f'Added new course {data["code"]}'
         await adminLog(message, stat)
         await state.finish()
