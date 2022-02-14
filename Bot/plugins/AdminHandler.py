@@ -41,43 +41,43 @@ async def admin_panel_callbacks(query: types.InlineQuery):
         TEXT = f"Manage admin\nadmins list\n\n-`{adm}"
         await bot.send_message(query.from_user.id, TEXT, reply_markup=buttons.admin_subMenu(), parse_mode="MARKDOWN")
     if query.data == "admin_addAdmin":
-        await query.message.answer("Enter user id")
+        await query.message.answer("Enter user id", reply_markup=buttons.cancelBtn)
         await AdminForm.id.set()
     if query.data == "admin_removeAdmin":
         adm = '-`'.join([str(x) + '`\n' for x in admins])
         TEXT = f"Enter id from admins list\n\n-`{adm}"
-        await query.message.answer(TEXT, parse_mode="MARKDOWN")
+        await query.message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=buttons.cancelBtn)
         await RemoveAdmin.id.set()
 
     if query.data == "admin_manage_courses":
         await query.message.answer("Select next move:", reply_markup=buttons.admin_Manage_menu())
 
     if query.data == "admin_addNewCourse":
-        await query.message.answer("Please send course code for the new course")
+        await query.message.answer("Please send course code for the new course", reply_markup=buttons.cancelBtn)
         await AddNewCourseForm.code.set()
 
     if query.data == "admin_editCourseDesc":
         await DescEditForm.code.set()
-        await query.message.answer("Please send me the course code")
+        await query.message.answer("Please send me the course code", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_editCourseCrh":
         await CrhEditForm.code.set()
-        await query.message.answer("Please send me the course code")
+        await query.message.answer("Please send me the course code", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_editCourseFileId":
         await FileIdEditForm.code.set()
-        await query.message.answer("Please send me the course code")
+        await query.message.answer("Please send me the course code", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_editMaterials":
         await query.message.answer("Select what to do: ", reply_markup=buttons.adminMaterial_Menu())
 
     if query.data == "admin_removeMaterial":
         await RemoveMaterialForm.code.set()
-        await query.message.answer("Send me the course code first")
+        await query.message.answer("Send me the course code first", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_addMaterial":
         await AddMaterialForm.code.set()
-        await query.message.answer("Send me the course code first")
+        await query.message.answer("Send me the course code first", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_status":
         func = BotStatus.status()
@@ -94,15 +94,15 @@ async def removeMaterialFinal(query: types.InlineQuery):
 
 @dp.message_handler(state=AdminForm.id)
 async def adminState(message: types.Message, state: FSMContext):
-    if message.text.isdigit():
+    if message.text == '/cancel':
+        await message.answer("Process cancelled")
+        await state.finish()
+    elif message.text.isdigit():
         await message.answer(f"added {message.text} to admins list")
         admins.append(int(message.text))
         db.update({"admins": admins})
         stat = f'Added {message.text} as an admin'
         await adminLog(message, stat)
-        await state.finish()
-    elif message.text == '/cancel':
-        await message.answer("Process cancelled")
         await state.finish()
     else:
         await message.answer("User id must be number please enter again")
@@ -110,7 +110,10 @@ async def adminState(message: types.Message, state: FSMContext):
 
 @dp.message_handler(state=RemoveAdmin.id)
 async def removeAdmin(message: types.Message, state: FSMContext):
-    if int(message.text) in admins:
+    if message.text == '/cancel':
+        await message.answer("Process cancelled")
+        await state.finish()
+    elif int(message.text) in admins:
         await message.answer(f"removed {message.text} from admins list")
         admins.remove(int(message.text))
         db.update({"admins": admins})
