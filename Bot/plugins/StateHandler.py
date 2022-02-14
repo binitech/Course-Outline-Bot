@@ -6,7 +6,7 @@ from Bot.helpers import ManageCourse
 from Bot.helpers.BotStatus import adminLog
 from Bot.helpers.Database import CsFile
 from aiogram import types
-from Bot.helpers.buttons import cancelBtn
+from Bot.helpers.buttons import cancelBtn, menu
 from aiogram.dispatcher import FSMContext
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, DescEditForm, CourseManager, CrhEditForm, \
     FileIdEditForm, AddNewCourseForm
@@ -29,7 +29,7 @@ async def editDesc(message: types.Message, state: FSMContext):
 @dp.message_handler(state=DescEditForm.desc)
 async def editDesc(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     else:
         async with state.proxy() as data:
@@ -47,7 +47,7 @@ async def editDesc(message: types.Message, state: FSMContext):
 @dp.message_handler(state=CrhEditForm.code)
 async def editDesc(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.text in list(CsFile().get()):
         async with state.proxy() as data:
@@ -61,7 +61,7 @@ async def editDesc(message: types.Message, state: FSMContext):
 @dp.message_handler(state=CrhEditForm.crh)
 async def editDesc(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     else:
         async with state.proxy() as data:
@@ -79,7 +79,7 @@ async def editDesc(message: types.Message, state: FSMContext):
 @dp.message_handler(state=FileIdEditForm.code)
 async def editDesc(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.text in list(CsFile().get()):
         async with state.proxy() as data:
@@ -93,7 +93,7 @@ async def editDesc(message: types.Message, state: FSMContext):
 @dp.message_handler(state=FileIdEditForm.file, content_types=types.message.ContentType.ANY)
 async def editDesc(message: types.message.ContentType.ANY, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.document:
         async with state.proxy() as data:
@@ -112,7 +112,7 @@ async def editDesc(message: types.message.ContentType.ANY, state: FSMContext):
 @dp.message_handler(state=RemoveMaterialForm.code)
 async def removeMaterial(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.text in list(CsFile().get()):
         func = ManageCourse.listMaterials(message.text)
@@ -127,7 +127,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
 @dp.message_handler(state=AddMaterialForm.code)
 async def removeMaterial(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.text in list(CsFile().get()):
         async with state.proxy() as data:
@@ -141,7 +141,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
 @dp.message_handler(state=AddMaterialForm.cName)
 async def removeMaterial(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     else:
         async with state.proxy() as data:
@@ -153,7 +153,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
 @dp.message_handler(state=AddMaterialForm.cFile, content_types=types.message.ContentType.ANY)
 async def AddMatCFile(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.document:
         async with state.proxy() as data:
@@ -171,7 +171,7 @@ async def AddMatCFile(message: types.Message, state: FSMContext):
 @dp.message_handler(state=AddNewCourseForm.code)
 async def removeMaterial(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     elif message.text not in list(CsFile().get()):
         async with state.proxy() as data:
@@ -185,7 +185,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
 @dp.message_handler(state=AddNewCourseForm.name)
 async def removeMaterial(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
-        await message.answer("Process cancelled")
+        await message.answer("Process cancelled", reply_markup=menu(message.from_user.id))
         await state.finish()
     else:
         async with state.proxy() as data:
