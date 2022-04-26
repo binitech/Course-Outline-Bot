@@ -12,11 +12,10 @@ async def courseS(query: types.InlineQuery):
     """handling the course main menu inline button and giving the
     list of collages available"""
 
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     func = courses.collage(lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])
 
 
 @dp.callback_query_handler(Text(startswith="material"))
@@ -52,16 +51,16 @@ async def Pagination(query: types.InlineQuery):
 
 @dp.callback_query_handler(Text(startswith="listMaterial_"))
 async def Pagination(query: types.InlineQuery):
-    await query.message.delete()
+    # await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     page = query.data.split("_")
     if query.data.startswith("listMaterial_back"):
         func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
-        await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
     if query.data.startswith("listMaterial_next"):
         func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
-        await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
 
 
 @dp.callback_query_handler(Text(startswith="lang_"))
@@ -101,49 +100,44 @@ async def helpHandler(query: types.InlineQuery):
 
 @dp.callback_query_handler(Text(startswith="collage_"))
 async def divisionHandler(query: types.InlineQuery):
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")[1]
     func = courses.schools(sc, lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])
 
 
 @dp.callback_query_handler(Text(startswith="school_"))
 async def schoolHandler(query: types.InlineQuery):
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
     func = courses.division([sc[1], sc[2]], lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])
 
 
 @dp.callback_query_handler(Text(startswith="depart_"))
 async def depHandler(query: types.InlineQuery):
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
     func = courses.department([sc[1], sc[2], sc[3]], lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])
 
 
 @dp.callback_query_handler(Text(startswith="year_"))
 async def yearHandler(query: types.InlineQuery):
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
     func = courses.year([sc[1], sc[2], sc[3], sc[4]], lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])
 
 
 @dp.callback_query_handler(Text(startswith="semester_"))
 async def semesterHandler(query: types.InlineQuery):
-    await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
     func = courses.semester([sc[1], sc[2], sc[3], sc[4], sc[5]], lang=lang)
-    await query.message.answer(func[0], reply_markup=func[1])
+    await query.message.edit_text(func[0], reply_markup=func[1])

@@ -87,7 +87,7 @@ def semester(par, inside=False, lang=0):
         NewData = par
     else:
         NewData = data[par[0]][par[1]][par[2]][par[3]][par[4]]
-    mainMenu = InlineKeyboardButton(strings.mainMenuString[lang], callback_data="course_menu")
+    Menu = InlineKeyboardButton(strings.mainMenuString[lang], callback_data="course_menu")
     if isinstance(NewData, list):
         txt = []
         for x in NewData:
@@ -95,10 +95,10 @@ def semester(par, inside=False, lang=0):
         div = "\n\n".join(txt)
         courseText = ["Courses: \n\n{}", "ኮርሶች: \n\n{}"]
         TEXT = courseText[lang].format(div)
-        mainMenu = InlineKeyboardMarkup().add(mainMenu)
+        mainMenu = InlineKeyboardMarkup()
         if not inside:
             mainMenu.add(InlineKeyboardButton(
                 strings.backBtnString[lang],
                 callback_data=f"year_{par[0]}_{par[1]}_{par[2]}_{par[3]}"))
-
+        mainMenu.insert(Menu)
         return TEXT, mainMenu

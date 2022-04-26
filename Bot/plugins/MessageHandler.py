@@ -31,7 +31,7 @@ async def starter(message: types.Message):
         userDb.add_user(userId, data)
         func = buttons.selectLanguage()
         await message.answer(
-            f"👋Hey {message.from_user.first_name}\nWelcome to ASTU course outline Bot\nPlease select language:",
+            f"👋Hey {message.from_user.first_name}\nWelcome to ASTU courses Bot\nPlease select language:",
             reply_markup=func[1])
     else:
         lang = userDb.get_user_lang(userId)
@@ -126,7 +126,7 @@ async def GetCourses(message: types.Message):
                f"*Course credit hour:* _{fullCourse['crh']}_\n\n" \
                f"*About Course:* \n_{fullCourse['description']}_"
 
-        btn = InlineKeyboardMarkup().add(InlineKeyboardButton("📚Materials", callback_data=f'material_{cCode}'))
+        btn = InlineKeyboardMarkup().add(InlineKeyboardButton("📚Books & Reference", callback_data=f'material_{cCode}'))
         await message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=btn)
 
         Doc_Text = f'➖➖ <b>Course Outline</b> ➖➖\n\n<b>Name:</b> {fullCourse["name"]}' \
