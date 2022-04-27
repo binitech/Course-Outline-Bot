@@ -5,6 +5,20 @@
         "file_id": "BQACAgQAAxkBAAEN4Q5h_Se8R-cPMRGuyubQ72-JiDOpjgACoAkAAld7KFPIdWJ0Hn4oNiME",
         "crh": "3",
         "description": "None available",
+        "exams": [
+            [
+                "2018 Mid Exam",
+                1
+            ],
+            [
+                "2018 Mid Exam",
+                2
+            ],
+            [
+                "2018 Mid Exam",
+                3
+            ]
+        ],
         "materials": [
             [
                 "Applied Begashaw",

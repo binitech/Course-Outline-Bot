@@ -1,7 +1,9 @@
+from aiogram.utils import exceptions
+
 from Bot import bot, dp
 from aiogram import types
 from aiogram.dispatcher.filters import Text
-from Bot.helpers import courses, materials, strings, buttons
+from Bot.helpers import courses, materials, strings, buttons, exams
 from Bot.helpers.Database import Users, CsFile
 
 dataBase = Users()
@@ -22,7 +24,32 @@ async def courseS(query: types.InlineQuery):
 async def materialHandlerInline(query: types.InlineQuery):
     code = query.data.split("_")[1]
     func = materials.listMaterials(code)
-    await query.message.answer(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+    await query.message.answer(func[0], reply_markup=func[1], parse_mode="HTML")
+
+
+@dp.callback_query_handler(Text(startswith="outline"))
+async def materialHandlerInline(query: types.InlineQuery):
+    cCode = query.data.split("_")[1]
+    fullCourse = CsFile().get()[cCode]
+
+    Doc_Text = f'➖➖ <b>Course Outline</b> ➖➖\n\n<b>Name:</b> {fullCourse["name"]}' \
+               f'\n<b>Code:</b> {fullCourse["code"]}\n\n📚Find More from : @ASTU_COBOT'
+    try:
+        await bot.send_document(query.from_user.id,
+                                document=fullCourse['file_id'],
+                                caption=Doc_Text,
+                                parse_mode="HTML")
+
+    except exceptions.WrongFileIdentifier:
+        await query.message.answer("Oops😔\n\nCourse detail is not available for now")
+
+
+@dp.callback_query_handler(Text(startswith="exams"))
+async def exams_handler(query: types.InlineQuery):
+    cCode = query.data.split("_")[1]
+    func = exams.list_exams(cCode)
+    # await query.message.answer(func[0], parse_mode="HTML", reply_markup=func[1])
+    await query.answer("This feature will be added soon😃", show_alert=True)
 
 
 @dp.callback_query_handler(Text(startswith="displayMaterial"))
@@ -51,16 +78,15 @@ async def Pagination(query: types.InlineQuery):
 
 @dp.callback_query_handler(Text(startswith="listMaterial_"))
 async def Pagination(query: types.InlineQuery):
-    # await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     page = query.data.split("_")
     if query.data.startswith("listMaterial_back"):
         func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
-        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="HTML")
     if query.data.startswith("listMaterial_next"):
         func = materials.listMaterials(start=int(page[2]), end=int(page[3]), i=int(page[4]), lang=lang, code=page[5])
-        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="MARKDOWN")
+        await query.message.edit_text(func[0], reply_markup=func[1], parse_mode="HTML")
 
 
 @dp.callback_query_handler(Text(startswith="lang_"))
@@ -95,6 +121,8 @@ async def helpHandler(query: types.InlineQuery):
 
 #####################################################################################
 """                             COURSE LISTING SECTION                            """
+
+
 #####################################################################################
 
 

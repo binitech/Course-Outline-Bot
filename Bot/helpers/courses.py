@@ -102,3 +102,13 @@ def semester(par, inside=False, lang=0):
                 callback_data=f"year_{par[0]}_{par[1]}_{par[2]}_{par[3]}"))
         mainMenu.insert(Menu)
         return TEXT, mainMenu
+
+
+def course_btns(cCode):
+    main_btn = InlineKeyboardMarkup(row_width=1)
+    main_btn.add(
+        InlineKeyboardButton("📚Books & Reference", callback_data=f'material_{cCode}'),
+        InlineKeyboardButton("🗞Course Outline", callback_data=f'outline_{cCode}'),
+        InlineKeyboardButton("📝Last Year Exams", callback_data=f'exams_{cCode}')
+    )
+    return main_btn

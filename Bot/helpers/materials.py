@@ -31,7 +31,7 @@ def listMaterials(code, start=0, end=10, i=1, lang=0):
     btn = InlineKeyboardMarkup(row_width=5)
     for x in mat:
         txt.append(
-            f"*{str(i).zfill(2)}* 🔗 *{x[0]}*"
+            f"<b>{str(i).zfill(2)}</b> 🔗 <b>{x[0]}</b>"
         )
         btn.insert(InlineKeyboardButton(f"{str(i).zfill(2)}", callback_data=f"displayMaterial_{code}_{i - 1}"))
         i += 1
@@ -42,5 +42,6 @@ def listMaterials(code, start=0, end=10, i=1, lang=0):
         btn.insert(InlineKeyboardButton(strings.nextBtnString[lang]
                                         , callback_data=f"listMaterial_next_{start + 10}_{end + 10}_{i}_{code}"))
     TEXT = "\n".join(txt)
-    TEXT = f"*📕{CsFile().get()[code]['name']}*\n\n{TEXT}"
+    TEXT = f'➖➖ <b>📚Books & Reference</b> ➖➖\n\n<b>Name:</b> {CsFile().get()[code]["name"]}' \
+           f'\n\n{TEXT}\n\n📚Find More from : @ASTU_COBOT'
     return TEXT, btn

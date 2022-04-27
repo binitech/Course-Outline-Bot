@@ -17,7 +17,7 @@ userDb = Database.Users()
 @dp.message_handler(commands=["start"])
 async def starter(message: types.Message):
     """Handling start command and storing new users on firebase"""
-
+    print(message)
     await log(message)
     userId = message.from_user.id
     data = {
@@ -118,23 +118,12 @@ async def HelperDesk(message: types.Message):
 async def GetCourses(message: types.Message):
     """handling the GetCs command which is linked with course code
     and giving the course detail by the course code provided"""
-    try:
-        cCode = message.text.split("_")[1]
-        fullCourse = CsFile().get()[cCode]
-        TEXT = f"*Course Name:* _{fullCourse['name']}_\n\n" \
-               f"*Course Code:* _{fullCourse['code']}_\n\n" \
-               f"*Course credit hour:* _{fullCourse['crh']}_\n\n" \
-               f"*About Course:* \n_{fullCourse['description']}_"
+    cCode = message.text.split("_")[1]
+    fullCourse = CsFile().get()[cCode]
+    TEXT = f"*Course Name:* _{fullCourse['name']}_\n\n" \
+           f"*Course Code:* _{fullCourse['code']}_\n\n" \
+           f"*Course credit hour:* _{fullCourse['crh']}_\n\n" \
+           f"*About Course:* \n_{fullCourse['description']}_"
 
-        btn = InlineKeyboardMarkup().add(InlineKeyboardButton("📚Books & Reference", callback_data=f'material_{cCode}'))
-        await message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=btn)
+    await message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=courses.course_btns(cCode))
 
-        Doc_Text = f'➖➖ <b>Course Outline</b> ➖➖\n\n<b>Name:</b> {fullCourse["name"]}' \
-                   f'\n<b>Code:</b> {fullCourse["code"]}\n\n📚Find More from : @ASTU_COBOT'
-
-        await bot.send_document(message.from_user.id,
-                                document=fullCourse['file_id'],
-                                caption=Doc_Text,
-                                parse_mode="HTML")
-    except:
-        await message.answer("Oops😔\n\nCourse detail is not available for now")
