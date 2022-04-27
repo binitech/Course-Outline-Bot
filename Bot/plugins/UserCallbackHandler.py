@@ -46,9 +46,6 @@ async def materialHandlerInline(query: types.InlineQuery):
 
 @dp.callback_query_handler(Text(startswith="exams"))
 async def exams_handler(query: types.InlineQuery):
-    cCode = query.data.split("_")[1]
-    func = exams.list_exams(cCode)
-    # await query.message.answer(func[0], parse_mode="HTML", reply_markup=func[1])
     await query.answer("This feature will be added soon😃", show_alert=True)
 
 
