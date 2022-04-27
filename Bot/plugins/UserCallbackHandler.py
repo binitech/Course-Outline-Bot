@@ -40,8 +40,8 @@ async def materialHandlerInline(query: types.InlineQuery):
                                 caption=Doc_Text,
                                 parse_mode="HTML")
 
-    except exceptions.WrongFileIdentifier:
-        await query.message.answer("Oops😔\n\nCourse detail is not available for now")
+    except:
+        await query.message.answer("Oops😔\n\nCourse Outline for this course is not available for now.")
 
 
 @dp.callback_query_handler(Text(startswith="exams"))
