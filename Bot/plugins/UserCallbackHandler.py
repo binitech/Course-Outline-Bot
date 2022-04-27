@@ -41,7 +41,8 @@ async def materialHandlerInline(query: types.InlineQuery):
                                 parse_mode="HTML")
 
     except:
-        await query.message.answer("Oops😔\n\nCourse Outline for this course is not available for now.")
+        await query.message.answer(
+            "Sorry😔\n\nCourse Outline for this course is not available right now.")
 
 
 @dp.callback_query_handler(Text(startswith="exams"))
