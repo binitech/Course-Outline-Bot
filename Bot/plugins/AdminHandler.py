@@ -8,6 +8,9 @@ from Bot.helpers.BotStatus import adminLog
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, FileIdEditForm, CrhEditForm, DescEditForm, \
     CourseManager, AddNewCourseForm
 from config import admins, db
+from Bot.Admin import Admin
+
+admin = Admin(db)
 
 
 class AdminForm(StatesGroup):
@@ -22,7 +25,7 @@ class RemoveAdmin(StatesGroup):
 async def adminPanel(message: types.Message):
     """handling the admin panel and checking if user is an admin"""
 
-    if message.from_user.id in admins:
+    if admin.is_admin(message.from_user.id):
         await message.answer("Welcome admin", reply_markup=buttons.admin_menu())
     else:
         await message.answer("Nope 😉")
@@ -37,14 +40,14 @@ async def admin_panel_callbacks(query: types.InlineQuery):
     if query.data == "admin_menu":
         await bot.send_message(query.from_user.id, "Admin panel", reply_markup=buttons.admin_menu())
     if query.data == "admin_manage":
-        adm = '-`'.join([str(x) + '`\n' for x in admins])
+        adm = '-`'.join([str(x) + '`\n' for x in admin.admins])
         TEXT = f"Manage admin\nadmins list\n\n-`{adm}"
         await bot.send_message(query.from_user.id, TEXT, reply_markup=buttons.admin_subMenu(), parse_mode="MARKDOWN")
     if query.data == "admin_addAdmin":
         await query.message.answer("Enter user id", reply_markup=buttons.cancelBtn)
         await AdminForm.id.set()
     if query.data == "admin_removeAdmin":
-        adm = '-`'.join([str(x) + '`\n' for x in admins])
+        adm = '-`'.join([str(x) + '`\n' for x in admin.admins])
         TEXT = f"Enter id from admins list\n\n-`{adm}"
         await query.message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=buttons.cancelBtn)
         await RemoveAdmin.id.set()
@@ -80,8 +83,8 @@ async def admin_panel_callbacks(query: types.InlineQuery):
         await query.message.answer("Send me the course code first", reply_markup=buttons.cancelBtn)
 
     if query.data == "admin_status":
-        func = BotStatus.status()
-        await query.message.answer(func)
+        text = f"👥 Total Users \n\nThere are: {admin.get_total_users()} Users"
+        await query.message.answer(text)
 
 
 @dp.callback_query_handler(Text(startswith="removeMaterial_"))
@@ -97,10 +100,8 @@ async def adminState(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
         await message.answer("Process cancelled", reply_markup=buttons.menu(message.from_user.id))
         await state.finish()
-    elif message.text.isdigit():
+    elif message.text.isdigit() and admin.add_admin(int(message.text)):
         await message.answer(f"added {message.text} to admins list")
-        admins.append(int(message.text))
-        db.update({"admins": admins})
         stat = f'Added {message.text} as an admin'
         await adminLog(message, stat)
         await state.finish()
@@ -113,10 +114,8 @@ async def removeAdmin(message: types.Message, state: FSMContext):
     if message.text == '🚫Cancel':
         await message.answer("Process cancelled", reply_markup=buttons.menu(message.from_user.id))
         await state.finish()
-    elif int(message.text) in admins:
+    elif message.text.isdigit() and admin.remove_admin(int(message.text)):
         await message.answer(f"removed {message.text} from admins list")
-        admins.remove(int(message.text))
-        db.update({"admins": admins})
         stat = f'Removed {message.text} from admin list'
         await adminLog(message, stat)
         await state.finish()
