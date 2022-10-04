@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.dispatcher.filters import Text
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from Bot import dp, bot
-from Bot.helpers import buttons, Database, courses, materials, strings
+from Bot.helpers import buttons, Database, courses, materials, strings, exams
 from Bot.helpers.BotStatus import log
 from Bot.helpers.Database import CsFile
 
@@ -118,6 +118,7 @@ async def HelperDesk(message: types.Message):
 async def GetCourses(message: types.Message):
     """handling the GetCs command which is linked with course code
     and giving the course detail by the course code provided"""
+    await exams.display_exam(message.from_user.id)
     cCode = message.text.split("_")[1]
     fullCourse = CsFile().get()[cCode]
     TEXT = f"*Course Name:* _{fullCourse['name']}_\n\n" \

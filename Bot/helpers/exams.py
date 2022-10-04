@@ -28,7 +28,6 @@ def list_exams(code, start=0, end=10, i=1, lang=0):
     return text, btn
 
 
-# def display_exam(code, index):
-#     ch = -1001655193585
-#     link = CsFile().get()[code]['exams']
-#     await bot.send_copy()
+async def display_exam(uid):
+    ch = -1001655193585
+    await bot.copy_message(uid, ch, 8)
