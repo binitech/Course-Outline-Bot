@@ -1,7 +1,7 @@
 from aiogram import types
 from aiogram.dispatcher.filters import Text
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from Bot import dp, bot
+from Bot import dp
 from Bot.helpers import buttons, Database, courses, materials, strings, exams
 from Bot.helpers.BotStatus import log
 from Bot.helpers.Database import CsFile
@@ -127,4 +127,3 @@ async def GetCourses(message: types.Message):
            f"*About Course:* \n_{fullCourse['description']}_"
 
     await message.answer(TEXT, parse_mode="MARKDOWN", reply_markup=courses.course_btns(cCode))
-
