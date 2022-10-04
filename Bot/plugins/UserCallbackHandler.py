@@ -1,16 +1,14 @@
-from aiogram.utils import exceptions
-
 from Bot import bot, dp
 from aiogram import types
 from aiogram.dispatcher.filters import Text
-from Bot.helpers import courses, materials, strings, buttons, exams
+from Bot.helpers import courses, materials, strings, buttons
 from Bot.helpers.Database import Users, CsFile
 
 dataBase = Users()
 
 
 @dp.callback_query_handler(Text(equals="course_menu"))
-async def courseS(query: types.InlineQuery):
+async def courseS(query: types.CallbackQuery):
     """handling the course main menu inline button and giving the
     list of collages available"""
 
@@ -21,14 +19,14 @@ async def courseS(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="material"))
-async def materialHandlerInline(query: types.InlineQuery):
+async def materialHandlerInline(query: types.CallbackQuery):
     code = query.data.split("_")[1]
     func = materials.listMaterials(code)
     await query.message.answer(func[0], reply_markup=func[1], parse_mode="HTML")
 
 
 @dp.callback_query_handler(Text(startswith="outline"))
-async def materialHandlerInline(query: types.InlineQuery):
+async def materialHandlerInline(query: types.CallbackQuery):
     cCode = query.data.split("_")[1]
     fullCourse = CsFile().get()[cCode]
 
@@ -39,19 +37,18 @@ async def materialHandlerInline(query: types.InlineQuery):
                                 document=fullCourse['file_id'],
                                 caption=Doc_Text,
                                 parse_mode="HTML")
-
     except:
         await query.message.answer(
             "Sorry😔\n\nCourse Outline for this course is not available right now.")
 
 
 @dp.callback_query_handler(Text(startswith="exams"))
-async def exams_handler(query: types.InlineQuery):
+async def exams_handler(query: types.CallbackQuery):
     await query.answer("This feature will be added soon😃", show_alert=True)
 
 
 @dp.callback_query_handler(Text(startswith="displayMaterial"))
-async def displayMaterial(query: types.InlineQuery):
+async def displayMaterial(query: types.CallbackQuery):
     path = query.data.split('_')
     mat = CsFile().get()[path[1]]['materials'][int(path[2])]
     TEXT = f"*Book Name* : _{mat[0]}_\n\n📚Find More materials : @ASTU\_COBOT"
@@ -61,7 +58,7 @@ async def displayMaterial(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="pageBar"))
-async def Pagination(query: types.InlineQuery):
+async def Pagination(query: types.CallbackQuery):
     await query.message.delete()
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
@@ -75,7 +72,7 @@ async def Pagination(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="listMaterial_"))
-async def Pagination(query: types.InlineQuery):
+async def Pagination(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     page = query.data.split("_")
@@ -88,7 +85,7 @@ async def Pagination(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="lang_"))
-async def setLang(query: types.InlineQuery):
+async def setLang(query: types.CallbackQuery):
     """handling and updating the language by users selection"""
 
     await query.message.delete()
@@ -104,7 +101,7 @@ async def setLang(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="help_"))
-async def helpHandler(query: types.InlineQuery):
+async def helpHandler(query: types.CallbackQuery):
     """handling the help desk and giving help to users"""
 
     userId = query.from_user.id
@@ -125,7 +122,7 @@ async def helpHandler(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="collage_"))
-async def divisionHandler(query: types.InlineQuery):
+async def divisionHandler(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")[1]
@@ -134,7 +131,7 @@ async def divisionHandler(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="school_"))
-async def schoolHandler(query: types.InlineQuery):
+async def schoolHandler(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
@@ -143,7 +140,7 @@ async def schoolHandler(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="depart_"))
-async def depHandler(query: types.InlineQuery):
+async def depHandler(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
@@ -152,7 +149,7 @@ async def depHandler(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="year_"))
-async def yearHandler(query: types.InlineQuery):
+async def yearHandler(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
@@ -161,7 +158,7 @@ async def yearHandler(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="semester_"))
-async def semesterHandler(query: types.InlineQuery):
+async def semesterHandler(query: types.CallbackQuery):
     userId = query.from_user.id
     lang = dataBase.get_user_lang(userId)
     sc = query.data.split("_")
