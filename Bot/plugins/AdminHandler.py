@@ -3,11 +3,11 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 from Bot import bot, dp
 from aiogram import types
 from aiogram.dispatcher.filters import Text
-from Bot.helpers import BotStatus, buttons
+from Bot.helpers import buttons
 from Bot.helpers.BotStatus import adminLog
 from Bot.helpers.ManageCourse import AddMaterialForm, RemoveMaterialForm, FileIdEditForm, CrhEditForm, DescEditForm, \
     CourseManager, AddNewCourseForm
-from config import admins, db
+from config import db
 from Bot.Admin import Admin
 
 admin = Admin(db)
@@ -32,7 +32,7 @@ async def adminPanel(message: types.Message):
 
 
 @dp.callback_query_handler(Text(startswith="admin"))
-async def admin_panel_callbacks(query: types.InlineQuery):
+async def admin_panel_callbacks(query: types.CallbackQuery):
     """handling the admin panel inline section and provide
     admin functionalities"""
 
@@ -88,7 +88,7 @@ async def admin_panel_callbacks(query: types.InlineQuery):
 
 
 @dp.callback_query_handler(Text(startswith="removeMaterial_"))
-async def removeMaterialFinal(query: types.InlineQuery):
+async def removeMaterialFinal(query: types.CallbackQuery):
     codes = query.data.split("_")
     manager = CourseManager()
     manager.remove_material(codes[1], codes[2])
