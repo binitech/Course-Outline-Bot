@@ -1,5 +1,5 @@
 from Bot import bot
-mode = 'test'
+mode = 'live'
 
 
 def status():
@@ -23,7 +23,7 @@ async def log(event):
     if mode == 'test':
         print(TEXT)
     else:
-        await bot.send_message(-619480714, TEXT, parse_mode="HTML")
+        await bot.send_message(-1001972528530, TEXT, parse_mode="HTML")
 
 
 async def adminLog(event, stat):
@@ -38,4 +38,4 @@ async def adminLog(event, stat):
     if mode == 'test':
         print(TEXT)
     else:
-        await bot.send_message(-619480714, TEXT, parse_mode="HTML")
+        await bot.send_message(-1001972528530, TEXT, parse_mode="HTML")
