@@ -118,9 +118,15 @@ async def HelperDesk(message: types.Message):
 async def GetCourses(message: types.Message):
     """handling the GetCs command which is linked with course code
     and giving the course detail by the course code provided"""
-    # await exams.display_exam(message.from_user.id)
     cCode = message.text.split("_")[1]
-    fullCourse = CsFile().get()[cCode]
+    courses_dict = CsFile().get()
+
+    # Check if the course code exists in the dictionary
+    if cCode not in courses_dict:
+        await message.answer("🔍 Course not added yet, explore other available courses.")
+        return
+    fullCourse = courses_dict[cCode]
+
     TEXT = f"*Course Name:* _{fullCourse['name']}_\n\n" \
            f"*Course Code:* _{fullCourse['code']}_\n\n" \
            f"*Course credit hour:* _{fullCourse['crh']}_\n\n" \
