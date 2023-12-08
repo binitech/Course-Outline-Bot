@@ -176,7 +176,7 @@ async def removeMaterial(message: types.Message, state: FSMContext):
     elif message.text not in list(CsFile().get()):
         async with state.proxy() as data:
             data['code'] = message.text
-        await message.answer("Send me Material Title/Name", reply_markup=cancelBtn)
+        await message.answer("Send me Course Title/Name", reply_markup=cancelBtn)
         await AddNewCourseForm.next()
     else:
         await message.answer("The course code you entered is available in the courses list")

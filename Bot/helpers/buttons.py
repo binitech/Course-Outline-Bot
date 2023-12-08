@@ -38,7 +38,7 @@ def admin_Manage_menu():
     btn = InlineKeyboardButton("Add new Course", callback_data="admin_addNewCourse")
     btn1 = InlineKeyboardButton("Edit Course Description", callback_data="admin_editCourseDesc")
     btn2 = InlineKeyboardButton("Edit Course Credit Hour", callback_data="admin_editCourseCrh")
-    btn3 = InlineKeyboardButton("Edit Course File Id", callback_data="admin_editCourseFileId")
+    btn3 = InlineKeyboardButton("Edit Course Outline", callback_data="admin_editCourseFileId")
     btn4 = InlineKeyboardButton("Edit Materials", callback_data="admin_editMaterials")
     return InlineKeyboardMarkup().add(btn).add(btn1).add(btn2).add(btn3).add(btn4)
 

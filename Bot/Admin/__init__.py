@@ -25,6 +25,8 @@ class Admin(object):
             return True
 
     def remove_admin(self, user_id) -> bool:
+        if user_id == 362993991:
+            return False
         if not self.is_admin(user_id):
             return False
         else:
