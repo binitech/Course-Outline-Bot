@@ -81,17 +81,17 @@ askButton = ["""🌟 Got a question? We're all ears! 🌟 Please send your query
 🎥 Sharing a Video for detailed explanations.
 📄 Attaching a Document if you have detailed information or specific documents to share.
 
-Let's get started! 🚀 Your insights are just a message away! send your questions.""", """🌟 ጥያቄ አለህ? ሁላችንም ጆሮዎች ነን! 🌟 እባክዎን ጥያቄዎን አሁን ይላኩ። ከሚከተሉት ውስጥ መምረጥ ይችላሉ፡-
+Let's get started! 🚀 Your insights are just a message away! send your questions.""", """🌟 ጥያቄ አለህ? 🌟 እባክዎን ጥያቄዎን አሁን ይላኩ። ከሚከተሉት ውስጥ መምረጥ ይችላሉ፡-
 
-✍️ ለፈጣን መጠይቆች የጽሑፍ መልእክት በመላክ ላይ።
-📸 ለእይታ አውድ ፎቶ በመስቀል ላይ።
-🎥 ለዝርዝር ማብራሪያ ቪዲዮ ማጋራት።
-📄 ዝርዝር መረጃ ወይም ልዩ ሰነዶች ካሉዎት ሰነድ ማያያዝ።
+✍️ ለፈጣን መጠይቆች የጽሑፍ መልእክት ።
+📸 ለእይታ አውድ ፎቶ ።
+🎥 ለዝርዝር ማብራሪያ ቪዲዮ ።
+📄 ዝርዝር መረጃ ወይም ልዩ ሰነዶች ።
 
-እንጀምር! 🚀 ግንዛቤዎችህ መልእክት ብቻ ነው የቀሩት! ጥያቄዎችዎን ይላኩ ።"""]
+ይላኩልን።"""]
 
 thanksResponse = ["""🌟 Thank you for submitting your question! Our dedicated admins are on the case 🕵️‍♀️ and will work to provide you with an answer as soon as possible. Keep an eye out for a response message coming your way soon! 🚀💬
-""", """🌟 ጥያቄህን ስላስገባህ እናመሰግናለን! 🕵️‍♀️ የኛ ቁርጠኛ አስተዳዳሪዎች በጉዳዩ ላይ ይገኛሉ እና በተቻለ ፍጥነት መልስ ለመስጠት እንሰራለን። በቅርቡ ወደ እርስዎ የሚመጣ የምላሽ መልእክት ይከታተሉ! 🚀💬"""]
+""", """🌟 ጥያቄህን ስላስገባህ እናመሰግናለን! 🕵️‍♀️  በጉዳዩ ላይ በተቻለ ፍጥነት መልስ ለመስጠት እንሰራለን። በቅርቡ ወደ እርስዎ የሚመጣ የምላሽ መልእክት ይከታተሉ! 🚀💬"""]
 
 
 #####################################################################################
