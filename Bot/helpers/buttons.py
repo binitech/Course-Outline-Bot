@@ -6,7 +6,8 @@ from Bot.helpers import strings
 def menu(uid, lang=0):
     btn1 = KeyboardButton(strings.coursesBtn[lang])
     btn2 = KeyboardButton(strings.aboutBtn[lang])
-    btn3 = KeyboardButton(strings.materialsBtn[lang])
+    # btn3 = KeyboardButton(strings.materialsBtn[lang])
+    btn3 = KeyboardButton(strings.askBtn[lang])
     btn4 = KeyboardButton(strings.languageBtn[lang])
     btn5 = KeyboardButton(strings.searchBtn[lang])
     btn6 = KeyboardButton(strings.helpdeskBtn[lang])

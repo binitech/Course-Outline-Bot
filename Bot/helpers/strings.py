@@ -57,6 +57,7 @@ mainMenuString = ["🌐Main Menu", "🌐ዋና ገጽ"]
 coursesBtn = ["📖Courses", "📖ኮርሶች"]
 aboutBtn = ["👥About", "👥ስለኛ"]
 materialsBtn = ["📚Materials", "📚መጻሕፍት"]
+askBtn = ["❓Ask Question", "❓ጥያቄ ይጠይቁ"]
 languageBtn = ["🗣  Language", "🗣  ቋንቋ"]
 searchBtn = ["🔎Search Course", "🔎ኮርስ ፍለጋ"]
 helpdeskBtn = ["❔Help Desk", "❔የእገዛ ዴስክ"]
@@ -72,6 +73,25 @@ helpButton = ["Hey {}\n\nI'm here to help you please select what you want to get
 searchButton = ["You can search for course by the course code or the course name"
                 "\nClick the below inline button to start search🔎",
                 "ኮርሱን በኮርሱ ኮድ ወይም በኮርሱ ስም መፈለግ ይችላሉ። \nፍለጋ🔎 ለመጀመር ከታች ያለውን Inline button ይጫኑ"]
+
+askButton = ["""🌟 Got a question? We're all ears! 🌟 Please send your query now. You can choose from:
+
+✍️ Sending a Text message for quick queries.
+📸 Uploading a Photo for visual context.
+🎥 Sharing a Video for detailed explanations.
+📄 Attaching a Document if you have detailed information or specific documents to share.
+
+Let's get started! 🚀 Your insights are just a message away! send your questions.""", """🌟 ጥያቄ አለህ? ሁላችንም ጆሮዎች ነን! 🌟 እባክዎን ጥያቄዎን አሁን ይላኩ። ከሚከተሉት ውስጥ መምረጥ ይችላሉ፡-
+
+✍️ ለፈጣን መጠይቆች የጽሑፍ መልእክት በመላክ ላይ።
+📸 ለእይታ አውድ ፎቶ በመስቀል ላይ።
+🎥 ለዝርዝር ማብራሪያ ቪዲዮ ማጋራት።
+📄 ዝርዝር መረጃ ወይም ልዩ ሰነዶች ካሉዎት ሰነድ ማያያዝ።
+
+እንጀምር! 🚀 ግንዛቤዎችህ መልእክት ብቻ ነው የቀሩት! ጥያቄዎችዎን ይላኩ ።"""]
+
+thanksResponse = ["""🌟 Thank you for submitting your question! Our dedicated admins are on the case 🕵️‍♀️ and will work to provide you with an answer as soon as possible. Keep an eye out for a response message coming your way soon! 🚀💬
+""", """🌟 ጥያቄህን ስላስገባህ እናመሰግናለን! 🕵️‍♀️ የኛ ቁርጠኛ አስተዳዳሪዎች በጉዳዩ ላይ ይገኛሉ እና በተቻለ ፍጥነት መልስ ለመስጠት እንሰራለን። በቅርቡ ወደ እርስዎ የሚመጣ የምላሽ መልእክት ይከታተሉ! 🚀💬"""]
 
 
 #####################################################################################

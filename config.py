@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_TOKEN = os.getenv("API_TOKEN")
+admin_group_id = os.getenv("ADMIN_GROUP")
 
 firebaseConfig = {
     "apiKey": os.getenv('apiKey'),
